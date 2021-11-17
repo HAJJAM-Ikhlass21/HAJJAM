@@ -1,0 +1,54 @@
+Microsoft Windows [version 10.0.19042.1288]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\hikhl>ls
+'ls' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\hikhl>cd C:\Users\hikhl\Desktop\gitMathilde\D-Dossier-Mathilde-ISIS-3-Geni-Logiciel
+
+C:\Users\hikhl\Desktop\gitMathilde\D-Dossier-Mathilde-ISIS-3-Geni-Logiciel>git pull origin main
+From https://github.com/Raynal12/D-Dossier-Mathilde-ISIS-3-Geni-Logiciel
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+C:\Users\hikhl\Desktop\gitMathilde\D-Dossier-Mathilde-ISIS-3-Geni-Logiciel>git add .
+
+C:\Users\hikhl\Desktop\gitMathilde\D-Dossier-Mathilde-ISIS-3-Geni-Logiciel>git commit -m "conflit 1"
+[main ba2ac0e] conflit 1
+ 1 file changed, 2 insertions(+)
+
+C:\Users\hikhl\Desktop\gitMathilde\D-Dossier-Mathilde-ISIS-3-Geni-Logiciel>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 326 bytes | 163.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Raynal12/D-Dossier-Mathilde-ISIS-3-Geni-Logiciel.git
+   cf05b0a..ba2ac0e  main -> main
+
+C:\Users\hikhl\Desktop\gitMathilde\D-Dossier-Mathilde-ISIS-3-Geni-Logiciel>git pull
+remote: Enumerating objects: 24, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 20 (delta 0), reused 20 (delta 0), pack-reused 0
+Unpacking objects: 100% (20/20), 2.38 KiB | 20.00 KiB/s, done.
+From https://github.com/Raynal12/D-Dossier-Mathilde-ISIS-3-Geni-Logiciel
+   ba2ac0e..a743048  main       -> origin/main
+Updating ba2ac0e..a743048
+Fast-forward
+ README.md                                           |   6 ++++++
+ pom.xml                                             |  13 +++++++++++++
+ src/main/java/Main.java                             |  20 ++++++++++++++++++++
+ target/classes/Main.class                           | Bin 0 -> 563 bytes
+ .../compile/default-compile/createdFiles.lst        |   1 +
+ .../compile/default-compile/inputFiles.lst          |   1 +
+ 6 files changed, 41 insertions(+)
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/Main.java
+ create mode 100644 target/classes/Main.class
+ create mode 100644 target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+ create mode 100644 target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+
+C:\Users\hikhl\Desktop\gitMathilde\D-Dossier-Mathilde-ISIS-3-Geni-Logiciel>

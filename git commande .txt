@@ -1,0 +1,324 @@
+Microsoft Windows [version 10.0.19042.1288]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\hikhl>ls
+'ls' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\hikhl>/ls
+'/ls' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\hikhl>* ls
+'*' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\hikhl>ls
+'ls' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\hikhl>cd C:\Users\hikhl\Desktop\tp git
+
+C:\Users\hikhl\Desktop\tp git>git init
+Initialized empty Git repository in C:/Users/hikhl/Desktop/tp git/.git/
+
+C:\Users\hikhl\Desktop\tp git>git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+C:\Users\hikhl\Desktop\tp git>echo "# HAJJAM" >> README.md
+
+C:\Users\hikhl\Desktop\tp git>git init
+Reinitialized existing Git repository in C:/Users/hikhl/Desktop/tp git/.git/
+
+C:\Users\hikhl\Desktop\tp git>git add README.md
+
+C:\Users\hikhl\Desktop\tp git>git commit -m "first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'hikhl@LAPTOP-0PS7EJDA.(none)')
+
+C:\Users\hikhl\Desktop\tp git>git commit -m "first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'hikhl@LAPTOP-0PS7EJDA.(none)')
+
+C:\Users\hikhl\Desktop\tp git> git config --global user.email "ikhlass.hajjam@etud.univ-"jfc.fr
+
+C:\Users\hikhl\Desktop\tp git>git config --global user.email "ikhlass.hajjam@etud.univ-jfc.fr"
+
+C:\Users\hikhl\Desktop\tp git>git branch -M main
+
+C:\Users\hikhl\Desktop\tp git>git remote add origin https://github.com/HAJJAM-Ikhlass21/HAJJAM.git
+
+C:\Users\hikhl\Desktop\tp git>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/HAJJAM-Ikhlass21/HAJJAM.git'
+
+C:\Users\hikhl\Desktop\tp git>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+
+C:\Users\hikhl\Desktop\tp git>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/HAJJAM-Ikhlass21/HAJJAM.git'
+
+C:\Users\hikhl\Desktop\tp git>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+
+C:\Users\hikhl\Desktop\tp git>git commit -a -m "First commit"
+[main (root-commit) 386fbd2] First commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+C:\Users\hikhl\Desktop\tp git>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\hikhl\Desktop\tp git>git remote
+origin
+
+C:\Users\hikhl\Desktop\tp git>git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 231 bytes | 57.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/HAJJAM-Ikhlass21/HAJJAM.git
+ * [new branch]      main -> main
+
+C:\Users\hikhl\Desktop\tp git>cd ../
+
+C:\Users\hikhl\Desktop>dir
+ Le volume dans le lecteur C s’appelle OS
+ Le numéro de série du volume est DE21-6D48
+
+ Répertoire de C:\Users\hikhl\Desktop
+
+15/11/2021  16:43    <DIR>          .
+15/11/2021  16:43    <DIR>          ..
+08/11/2021  15:22                 0 chinoix.docx
+15/11/2021  09:11                 0 connaissance de l'envirennement.docx
+04/09/2021  12:28    <DIR>          developpement
+04/09/2021  13:18    <DIR>          doc FIE2 revisioon java ISIS
+04/09/2021  11:45    <DIR>          Docs Bureau
+04/09/2021  11:47    <DIR>          document administrative
+30/09/2021  22:07    <DIR>          ISIS
+27/09/2021  18:49    <DIR>          jdk-17.0.1
+30/10/2021  19:06       179 128 454 jdk-17_windows-x64_bin.zip
+04/09/2021  11:42    <DIR>          jeux
+08/11/2021  16:03            12 550 note expression professionelle.docx
+07/11/2021  11:07                 0 presentation expression pro.pptx
+10/05/2021  14:34    <DIR>          Runtime Windows
+10/05/2021  14:30       311 398 891 Runtime Windows.zip
+19/09/2021  12:05    <DIR>          scolarite etudes
+19/09/2021  19:41            55 894 ticket de paiement matmut.pdf
+15/11/2021  16:54    <DIR>          tp git
+05/11/2021  20:36            76 725 virement rokaya.png
+               8 fichier(s)      490 672 514 octets
+              12 Rép(s)  145 691 164 672 octets libres
+
+C:\Users\hikhl\Desktop>cd tp git
+
+C:\Users\hikhl\Desktop\tp git>dir
+ Le volume dans le lecteur C s’appelle OS
+ Le numéro de série du volume est DE21-6D48
+
+ Répertoire de C:\Users\hikhl\Desktop\tp git
+
+15/11/2021  16:54    <DIR>          .
+15/11/2021  16:54    <DIR>          ..
+15/11/2021  16:54                13 README.md
+15/11/2021  16:43    <DIR>          src
+               1 fichier(s)               13 octets
+               3 Rép(s)  145 691 164 672 octets libres
+
+C:\Users\hikhl\Desktop\tp git>cd ..
+
+C:\Users\hikhl\Desktop>cd jeux
+
+C:\Users\hikhl\Desktop\jeux>cd ..
+
+C:\Users\hikhl\Desktop>cd gitMathilde
+
+C:\Users\hikhl\Desktop\gitMathilde>cd ..
+
+C:\Users\hikhl\Desktop>dir
+ Le volume dans le lecteur C s’appelle OS
+ Le numéro de série du volume est DE21-6D48
+
+ Répertoire de C:\Users\hikhl\Desktop
+
+15/11/2021  17:51    <DIR>          .
+15/11/2021  17:51    <DIR>          ..
+08/11/2021  15:22                 0 chinoix.docx
+15/11/2021  09:11                 0 connaissance de l'envirennement.docx
+04/09/2021  12:28    <DIR>          developpement
+04/09/2021  13:18    <DIR>          doc FIE2 revisioon java ISIS
+04/09/2021  11:45    <DIR>          Docs Bureau
+04/09/2021  11:47    <DIR>          document administrative
+15/11/2021  17:51    <DIR>          gitMathilde
+30/09/2021  22:07    <DIR>          ISIS
+27/09/2021  18:49    <DIR>          jdk-17.0.1
+30/10/2021  19:06       179 128 454 jdk-17_windows-x64_bin.zip
+04/09/2021  11:42    <DIR>          jeux
+08/11/2021  16:03            12 550 note expression professionelle.docx
+07/11/2021  11:07                 0 presentation expression pro.pptx
+10/05/2021  14:34    <DIR>          Runtime Windows
+10/05/2021  14:30       311 398 891 Runtime Windows.zip
+19/09/2021  12:05    <DIR>          scolarite etudes
+19/09/2021  19:41            55 894 ticket de paiement matmut.pdf
+15/11/2021  17:48    <DIR>          tp git
+05/11/2021  20:36            76 725 virement rokaya.png
+               8 fichier(s)      490 672 514 octets
+              13 Rép(s)  145 673 232 384 octets libres
+
+C:\Users\hikhl\Desktop>cd gitMathilde
+
+C:\Users\hikhl\Desktop\gitMathilde>git clone  https://github.com/Raynal12/D-Dossier-Mathilde-ISIS-3-Geni-Logiciel.git
+Cloning into 'D-Dossier-Mathilde-ISIS-3-Geni-Logiciel'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+C:\Users\hikhl\Desktop\gitMathilde>dir
+ Le volume dans le lecteur C s’appelle OS
+ Le numéro de série du volume est DE21-6D48
+
+ Répertoire de C:\Users\hikhl\Desktop\gitMathilde
+
+15/11/2021  17:55    <DIR>          .
+15/11/2021  17:55    <DIR>          ..
+15/11/2021  17:55    <DIR>          D-Dossier-Mathilde-ISIS-3-Geni-Logiciel
+               0 fichier(s)                0 octets
+               3 Rép(s)  145 681 383 424 octets libres
+
+C:\Users\hikhl\Desktop\gitMathilde>git commit -a -m "commit ikhlass"
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\hikhl\Desktop\gitMathilde>cd D-Dossier-Mathilde-ISIS-3-Geni-Logiciel
+
+C:\Users\hikhl\Desktop\gitMathilde\D-Dossier-Mathilde-ISIS-3-Geni-Logiciel>git commit -a -m "commit ikhlass"
+[main cf05b0a] commit ikhlass
+ 1 file changed, 2 insertions(+)
+
+C:\Users\hikhl\Desktop\gitMathilde\D-Dossier-Mathilde-ISIS-3-Geni-Logiciel>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 306 bytes | 102.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Raynal12/D-Dossier-Mathilde-ISIS-3-Geni-Logiciel.git
+   20210ea..cf05b0a  main -> main
+
+C:\Users\hikhl\Desktop\gitMathilde\D-Dossier-Mathilde-ISIS-3-Geni-Logiciel>cd ..
+
+C:\Users\hikhl\Desktop\gitMathilde>git pull
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\hikhl\Desktop\gitMathilde>cd ..
+
+C:\Users\hikhl\Desktop>dir
+ Le volume dans le lecteur C s’appelle OS
+ Le numéro de série du volume est DE21-6D48
+
+ Répertoire de C:\Users\hikhl\Desktop
+
+16/11/2021  08:29    <DIR>          .
+16/11/2021  08:29    <DIR>          ..
+16/11/2021  08:25            61 378 Capture d’écran git 1.png
+16/11/2021  08:25            58 063 Capture d’écran git 2.png
+16/11/2021  08:26            59 172 Capture d’écran git 3.png
+16/11/2021  08:27            60 425 Capture d’écran git 4.png
+16/11/2021  08:27            81 429 Capture d’écran git 5.png
+16/11/2021  08:28            67 752 Capture d’écran git 6.png
+16/11/2021  08:29            81 948 Capture d’écran git 7.png
+08/11/2021  15:22                 0 chinoix.docx
+15/11/2021  09:11                 0 connaissance de l'envirennement.docx
+04/09/2021  12:28    <DIR>          developpement
+04/09/2021  13:18    <DIR>          doc FIE2 revisioon java ISIS
+04/09/2021  11:45    <DIR>          Docs Bureau
+04/09/2021  11:47    <DIR>          document administrative
+15/11/2021  17:55    <DIR>          gitMathilde
+30/09/2021  22:07    <DIR>          ISIS
+27/09/2021  18:49    <DIR>          jdk-17.0.1
+30/10/2021  19:06       179 128 454 jdk-17_windows-x64_bin.zip
+04/09/2021  11:42    <DIR>          jeux
+08/11/2021  16:03            12 550 note expression professionelle.docx
+07/11/2021  11:07                 0 presentation expression pro.pptx
+10/05/2021  14:34    <DIR>          Runtime Windows
+10/05/2021  14:30       311 398 891 Runtime Windows.zip
+19/09/2021  12:05    <DIR>          scolarite etudes
+19/09/2021  19:41            55 894 ticket de paiement matmut.pdf
+15/11/2021  17:48    <DIR>          tp git
+05/11/2021  20:36            76 725 virement rokaya.png
+              15 fichier(s)      491 142 681 octets
+              13 Rép(s)  143 924 371 456 octets libres
+
+C:\Users\hikhl\Desktop>cd "tp git"
+
+C:\Users\hikhl\Desktop\tp git>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 251 bytes | 10.00 KiB/s, done.
+From https://github.com/HAJJAM-Ikhlass21/HAJJAM
+   386fbd2..2586105  main       -> origin/main
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> main
+
+
+C:\Users\hikhl\Desktop\tp git>git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> main
+
+
+C:\Users\hikhl\Desktop\tp git>
